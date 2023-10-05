@@ -586,6 +586,13 @@ header .form i
     left: 0;
     top: 0;
 }
+@media (max-width: 767px) 
+{
+    .video-section .video::before
+    {
+        content: none;
+    }
+}
 .video-section .caption
 {
     position: absolute;
@@ -596,6 +603,14 @@ header .form i
     text-align: center;
     background-color: var(--transparent-color);
     width: 100%;
+}
+@media (max-width: 767px) 
+{
+    .video-section .caption
+    {
+        padding: 20px;
+        font-size: 14px;
+    }
 }
 .video-section .caption
 {
@@ -857,13 +872,23 @@ header .form i
 }
 .qoute > div
 {
-    padding: 30px 0;
+    padding: 30px;
     text-align: center;
     max-width: 100%;
 }
 .qoute q
 {
     text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+}
+@media (max-width: 767px) 
+{
+    .qoute q
+    {
+        font-size: 14px;
+        
+    }
 }
 .qoute q::before
 {
@@ -871,7 +896,8 @@ header .form i
     content: "\f10d";
     font-weight: 900;
     padding-right: 5px;
-    color: #a6a6a6;
+    color: #ffffff;
+    font-size: 24px;
 }
 .qoute q::after
 {
@@ -879,7 +905,8 @@ header .form i
     content: "\f10e";
     font-weight: 900;
     padding-left: 5px;
-    color: #a6a6a6;
+    color: #ffffff;
+    font-size: 24px;
 }
 .qoute p
 {
@@ -903,7 +930,7 @@ header .form i
 }
 .pricing .plans .plan{
     text-transform: capitalize;
-    background-color: #fcfcfc;
+    background-color: #f4f4f4;
 }
 @media(max-width:767px) 
 {
@@ -1009,6 +1036,7 @@ header .form i
 }
 .subscribe .container
 {
+    padding: 50px 0;
     background-image: url(../images/space.jpg);
     background-size: cover;
     background-position: bottom;
@@ -1018,7 +1046,6 @@ header .form i
     align-items: center;
     font-size: 18px;
     width: 100%;
-    height: 300px;
 }
 @media (max-width: 1190px) 
 {
