@@ -8,5 +8,4 @@
 
 HTML-CSS-template
 
-see 
-https://antohany.github.io/KASPER-template/
+## Take a LOOK => https://antohany.github.io/KASPER-template/
